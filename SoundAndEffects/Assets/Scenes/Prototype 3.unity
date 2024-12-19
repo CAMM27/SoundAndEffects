@@ -386,6 +386,10 @@ PrefabInstance:
       propertyPath: gravityModifier
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 2728254841984091386, guid: 2f8d00bf5057f624e949aef802595da9, type: 3}
+      propertyPath: explosionParticle
+      value: 
+      objectReference: {fileID: 2045917377}
     - target: {fileID: 4054306462935236101, guid: 2f8d00bf5057f624e949aef802595da9, type: 3}
       propertyPath: m_Mass
       value: 60
@@ -741,6 +745,11 @@ Transform:
 --- !u!4 &2045917375 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3303195482613169217, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
+  m_PrefabInstance: {fileID: 179177860}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2045917377 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 9125212449759046732, guid: cb7cd9b0c56a24d49a40784bd3203ae6, type: 3}
   m_PrefabInstance: {fileID: 179177860}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
